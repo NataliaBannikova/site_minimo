@@ -55,3 +55,7 @@ header .nav-item a:hover::after {
     -ms-transform: scale(1);
     -o-transform: scale(1);
 }
+
+.slider {
+    margin-bottom: 50px;
+}
