@@ -100,10 +100,10 @@ header .nav-item a:hover::after {
 .grid-posts .card-img-top {
     max-height: 300px;
     border-radius: 0;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
+    -webkit-border-radius:0;
+    -moz-border-radius:0;
+    -ms-border-radius:0;
+    -o-border-radius:0;
 }
 
 .load-more {
@@ -173,4 +173,48 @@ footer {
 .footer-right a {
     margin-left: 20px;
     color: #626262;
+}
+
+@media only screen and (max-width: 1199px) {
+    .grid-posts .card-img-top {
+        max-height: 280px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    header .nav-item {
+        margin-left: 0;
+    }
+    .grid-posts .card-img-top {
+        max-height: 210px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .grid-posts {
+        margin-top: 50px;
+        margin-bottom: 50px;  
+    }
+
+    .grid-posts .card {
+        margin-bottom: 50px;
+    }
+    .grid-posts .card-img-top {
+        max-height: 100%;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .signup {
+        padding: 30px 0;
+    }
+    .signup form {
+        margin-top: 35px;
+    }
+    footer {
+        margin-top: 60px;
+    }
+    .footer-left {
+        margin-bottom: 10px;
+    }
 }
