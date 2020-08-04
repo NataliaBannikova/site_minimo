@@ -84,7 +84,7 @@ header .nav-item a:hover::after {
 
 .grid-posts {
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 
 .grid-posts .card {
@@ -122,7 +122,7 @@ header .nav-item a:hover::after {
 
 .signup {
     background-color: #f0f0f0;
-    padding: 70px 0;
+    padding: 50px 0;
 }
 
 .signup h3 {
@@ -157,4 +157,20 @@ header .nav-item a:hover::after {
    right: 0;
    top: -5px; 
    font-size: 25px;
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 40px 0;
+    margin-top: 120px;
+}
+
+.footer-left a {
+    margin-right: 20px;
+    color: #626262;
+}
+
+.footer-right a {
+    margin-left: 20px;
+    color: #626262;
 }
